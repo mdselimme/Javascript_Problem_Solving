@@ -14,4 +14,5 @@ console.log("2 : " , tourist);
 // 4. Remove the last tourist destination you have added
 tourist.pop();
 
+// 5.display the final array as output
 console.log("3 : " , tourist);
