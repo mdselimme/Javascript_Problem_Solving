@@ -10,3 +10,21 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+
+let num1 = 80;
+let num2 = 60;
+
+let result = 0;
+
+// Ternary operator 
+num1>num2 ?  console.log("Double : ", result = num1*2) : console.log(result=num1+num2);
+
+if(num1>num2){
+    result = num1*2;
+    console.log("Double : ", result);
+}else{
+    result= num1+num2;
+    console.log("Sum : ", result);
+}
+
+console.log("Main Result: ", result);
