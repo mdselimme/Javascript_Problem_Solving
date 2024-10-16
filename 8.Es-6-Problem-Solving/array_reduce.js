@@ -1,7 +1,9 @@
 const people = [
-    22, 55, 46, 15, 49, 12
+    {name: "Meena", age:20},
+    {name: "Kalam", age:15},
+    {name: "Suchorita", age:22},
 ];
 
-const arr = people.reduce((value, inde)=> value + inde);
+const arr = people.reduce((accumulator, value) => {return accumulator += value.age},0);
 
 console.log(arr);
